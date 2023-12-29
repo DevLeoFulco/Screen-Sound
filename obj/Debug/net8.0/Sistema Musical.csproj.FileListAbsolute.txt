@@ -1,0 +1,14 @@
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\bin\Debug\net8.0\Sistema Musical.exe
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\bin\Debug\net8.0\Sistema Musical.deps.json
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\bin\Debug\net8.0\Sistema Musical.runtimeconfig.json
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\bin\Debug\net8.0\Sistema Musical.dll
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\bin\Debug\net8.0\Sistema Musical.pdb
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.AssemblyInfoInputs.cache
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.AssemblyInfo.cs
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.csproj.CoreCompileInputs.cache
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.dll
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\refint\Sistema Musical.dll
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.pdb
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.genruntimeconfig.cache
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\ref\Sistema Musical.dll
