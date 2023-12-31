@@ -12,3 +12,4 @@ C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net
 C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.pdb
 C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.genruntimeconfig.cache
 C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\ref\Sistema Musical.dll
+C:\Users\leand\OneDrive\Área de Trabalho\PROJETOS\Sistema Musical\obj\Debug\net8.0\Sistema Musical.sourcelink.json
