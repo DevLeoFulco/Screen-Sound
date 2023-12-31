@@ -47,8 +47,8 @@ void ExibirOpcoesDoMenu()
         case 3: AvaliarBandaRegistrada();
         
         break;
-        case 4:
-        Console.WriteLine("");
+        case 4: ExibirMediaBanda();
+        
         break;
         default:Console.WriteLine("OPÇÂO INVÁLIDA!");
         break;
@@ -115,10 +115,13 @@ void AvaliarBandaRegistrada()
 
         if (registroENotaBandas.ContainsKey(nomeDaBanda))
         {
-                Console.Write($"Qual avaliação a banda {nomeDaBanda} merece?");
+                Console.Write($"Qual avaliação a banda {nomeDaBanda} merece? ");
                 int nota = int.Parse(Console.ReadLine());
                 registroENotaBandas [nomeDaBanda].Add(nota);
-                Console.WriteLine($"Você registrou a nota {nota} com SUCESSO para a banda {nomeDaBanda}");
+                Console.WriteLine($"\nVocê registrou a nota {nota} com SUCESSO para a banda {nomeDaBanda} !");
+                Thread.Sleep(2000);
+                Console.Clear();
+                ExibirOpcoesDoMenu();
         }else 
         {
             Console.WriteLine($"{nomeDaBanda} não existe na lista atual de bandas! Deseja Registrar? (S) ou (N) ");
@@ -144,5 +147,30 @@ void ExibirTituloEmOpcao(String titulo)
         Console.WriteLine(asteriscos + "\n");
     }
 
+void ExibirMediaBanda()
+{
+    Console.Clear();
+    ExibirTituloEmOpcao("MÉDIA DAS AVALIAÇÕES DAS BANDAS");
+    Console.Write("Digite o nome da banda que deseja saber sua média de avaliação: ");
+    string bandaMedia = Console.ReadLine()!;
+
+    if (registroENotaBandas.ContainsKey(bandaMedia))
+    {
+        List<int> notasBanda = registroENotaBandas[bandaMedia];
+        Console.WriteLine($"A média da banda {bandaMedia} foi {notasBanda.Average()} !");
+        Console.WriteLine("Digite qualquer tecla para voltar ao menu principal");
+        Console.ReadKey();
+        Console.Clear();
+        
+    }else {
+        Console.WriteLine($"A banda {bandaMedia} não foi encontrada ou não existe media de avaliação !");
+        Console.WriteLine("Digite qualquer tecla para voltar ao menu principal !");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesDoMenu();
+
+    }
+
+}
 ExibirLogo();
 ExibirOpcoesDoMenu();
